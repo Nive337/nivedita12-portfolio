@@ -41,26 +41,26 @@ export function About() {
     <Section id="about">
       <SectionHeading
         eyebrow="About Me"
-        title="A student turning scattered curiosity into real, explainable skill."
+        title="A student turning curiosity into things I can actually build."
       />
       <div className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr]">
         <Reveal>
           <div className="space-y-5 text-base leading-relaxed text-muted-foreground">
             <p>
-              I am pursuing my B.E. in Computer Science and Design at PES Institute of Technology and
-              Management, affiliated with VTU, which I started in 2024. My work so far spans desktop
-              applications in C, database-driven Java systems, Spring Boot REST APIs and 3D graphics
-              with OpenGL.
+              I’m pursuing my B.E. in Computer Science and Design at PES Institute of Technology 
+              and Management, affiliated with VTU, which I started in 2024. So far, I’ve worked 
+              on everything from database-driven Java systems to Spring Boot REST APIs and 
+              3D graphics with OpenGL.
             </p>
             <p>
-              I am introverted and analytical — an INTP — so I would rather understand why something
-              works than memorise that it does. I learn best step by step, visually, and when the
-              concept is tied to something I am actually building.
+              I’ve always been more interested in understanding how things work than simply 
+              memorising how to use them. I learn best when I can break a concept down step 
+              by step, see how it works, and then apply it to something I’m building.
             </p>
             <p>
-              Right now my focus is depth: writing better Java, getting comfortable with data
-              structures and algorithms, and being able to explain every technical decision in my
-              projects clearly instead of reciting definitions.
+              Right now, I’m focused on becoming a stronger developer through hands-on projects,
+               improving my Java and backend skills, learning data structures and algorithms, 
+               and getting better at explaining the technical decisions behind the things I build.
             </p>
             <div className="flex flex-wrap gap-2 pt-2">
               {FOCUS_AREAS.map((f) => (
@@ -277,7 +277,7 @@ export function Contact() {
                 Email me
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/Nive337"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-plum/30 px-6 py-3 text-sm font-medium text-plum transition-colors duration-300 hover:bg-plum/10"
@@ -286,7 +286,7 @@ export function Contact() {
                 GitHub
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/nivedita-k-raikar-74189b32a"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-plum/30 px-6 py-3 text-sm font-medium text-plum transition-colors duration-300 hover:bg-plum/10"
@@ -295,7 +295,7 @@ export function Contact() {
                 LinkedIn
               </a>
               <a
-                href="https://www.youtube.com/"
+                href="https://www.youtube.com/@purplestarbts3125"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-plum/30 px-6 py-3 text-sm font-medium text-plum transition-colors duration-300 hover:bg-plum/10"

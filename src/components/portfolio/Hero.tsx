@@ -38,10 +38,12 @@ export function Hero() {
           <p className="font-script mt-4 text-2xl text-pink">an analytical mind with a creative pulse</p>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            I am a Computer Science and Design student from Karnataka, India, building software that
-            sits between engineering and art — backends and databases on one side, graphics,
-            animation and 3D on the other. I like understanding how things work, not just making
-            them work.
+            I’m a Computer Science and Design student at PES Institute of Technology and Management, 
+            and I enjoy working where technology meets creativity. I like building things that combine 
+            software, databases, and problem-solving with my interests in graphics, animation, and 3D. 
+            More than just making something work, I’m curious about how it works, why it works, 
+            and how I can make it better.
+
           </p>
 
           <div className="mt-9 flex flex-wrap gap-3">
@@ -89,8 +91,10 @@ export function Hero() {
           <div className="surface-card mt-[-3rem] ml-6 mr-[-1rem] rounded-3xl p-5 backdrop-blur-xl sm:mr-6">
             <p className="text-xs uppercase tracking-[0.25em] text-mauve">Currently</p>
             <p className="mt-2 text-sm leading-relaxed text-foreground/90">
-              Strengthening Java, DSA and backend development while preparing seriously for
-              internships and campus placements.
+              Currently building and improving my skills through real-world projects, 
+              web development, Java, and backend development, while preparing for internships 
+              and campus placements.
+
             </p>
           </div>
         </div>

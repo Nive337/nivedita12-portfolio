@@ -32,7 +32,7 @@ export const EDUCATION = [
 export const SKILL_GROUPS = [
   {
     title: "Languages",
-    items: ["Java", "Python", "C", "C++", "SQL", "HTML", "CSS"],
+    items: ["Java", "Python", "C", "SQL", "HTML", "CSS"],
   },
   {
     title: "Backend & Data",
@@ -56,24 +56,14 @@ export const SKILL_GROUPS = [
 
 export const PROJECTS = [
   {
-    name: "AskMyPdf — AI-Powered PDF Assistant",
-    slug: "askmypdf",
-    tag: "AI · Desktop",
+    name: "Attendance Management System",
+    slug: "attendance-management",
+    tag: "Spring Boot · REST",
     summary:
-      "A desktop PDF assistant that extracts text, searches keywords, summarises content and answers questions about a document through an AI model.",
+      "A teacher-facing attendance system that records daily attendance, computes monthly percentages and flags students below the required threshold.",
     detail:
-      "Built the text-extraction pipeline with pdftotext, wired HTTP requests through libcurl and integrated the OpenAI API. It taught me file processing, API design and how traditional C programming can sit alongside AI services.",
-    stack: ["C", "pdftotext", "libcurl", "OpenAI API"],
-  },
-  {
-    name: "Electricity Management System",
-    slug: "electricity-management",
-    tag: "Full Stack · DBMS",
-    summary:
-      "A database-driven electricity usage and monitoring system covering consumption tracking, device-level calculations and slab-based billing.",
-    detail:
-      "Structured the app in an MVC style with Servlets and JSP, used JDBC for database access and modelled slab billing logic in SQL, with a plain HTML/CSS/JavaScript frontend.",
-    stack: ["Java", "JSP", "Servlets", "JDBC", "MySQL", "JavaScript"],
+      "Designed entities, repositories and controllers in Spring Boot, exposed REST APIs, connected MySQL through JPA and built report pages on the frontend.",
+    stack: ["Java", "Spring Boot", "Maven", "MySQL", "HTML", "CSS", "JavaScript"],
   },
   {
     name: "Rubik's Cube Simulator",
@@ -86,14 +76,24 @@ export const PROJECTS = [
     stack: ["C++", "OpenGL", "FreeGLUT", "Blender"],
   },
   {
-    name: "Attendance Management System",
-    slug: "attendance-management",
-    tag: "Spring Boot · REST",
+    name: "Electricity Management System",
+    slug: "electricity-management",
+    tag: "Full Stack · DBMS",
     summary:
-      "A teacher-facing attendance system that records daily attendance, computes monthly percentages and flags students below the required threshold.",
+      "A database-driven electricity usage and monitoring system covering consumption tracking, device-level calculations and slab-based billing.",
     detail:
-      "Designed entities, repositories and controllers in Spring Boot, exposed REST APIs, connected MySQL through JPA and built report pages on the frontend.",
-    stack: ["Java", "Spring Boot", "Maven", "MySQL", "HTML", "CSS", "JavaScript"],
+      "Structured the app in an MVC style with Servlets and JSP, used JDBC for database access and modelled slab billing logic in SQL, with a plain HTML/CSS/JavaScript frontend.",
+    stack: ["Java", "JSP", "Servlets", "JDBC", "MySQL", "JavaScript"],
+  },
+  {
+    name: "AskMyPdf — AI-Powered PDF Assistant",
+    slug: "askmypdf",
+    tag: "AI · Desktop",
+    summary:
+      "A desktop PDF assistant that extracts text, searches keywords, summarises content and answers questions about a document through an AI model.",
+    detail:
+      "Built the text-extraction pipeline with pdftotext, wired HTTP requests through libcurl and integrated the OpenAI API. It taught me file processing, API design and how traditional C programming can sit alongside AI services.",
+    stack: ["C", "pdftotext", "libcurl", "OpenAI API"],
   },
 ];
 
@@ -104,6 +104,7 @@ export const CERTIFICATIONS = [
   { name: "Data Structures and Algorithms", issuer: "Infosys Springboard" },
   { name: "C Programming Course", issuer: "Infosys Springboard" },
   { name: "TechBytes Quiz Competition — Participant", issuer: "TCS" },
+  { name: "Smart India Hackathon — Participant", issuer: "SIH" },
 ];
 
 export const CREATIVE = [
@@ -117,7 +118,7 @@ export const CREATIVE = [
   },
   {
     title: "Video Editing & YouTube",
-    body: "I run a YouTube channel focused on BTS edits and short-form content, where I study pacing, rhythm and what makes a short video actually land.",
+    body: "I run a YouTube channel focused on edits and short-form content, where I study pacing, rhythm and what makes a short video actually land.",
   },
   {
     title: "Game Design & Creative Coding",
@@ -130,7 +131,6 @@ export const FOCUS_AREAS = [
   "Python",
   "DSA",
   "SQL & DBMS",
-  "OOP",
   "Spring Boot",
   "APIs",
   "Git / GitHub",
